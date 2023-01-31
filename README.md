@@ -100,7 +100,7 @@ output address score in output/result.csv
 
 #### python flask
 
-run a python http server
+run python http server
 
 ```
 pip3 install flask
@@ -121,24 +121,29 @@ flask run
 
 ## API Doc For Flask Server
 
-- url
-  `http://127.0.0.1:5000/analyze?address=0xB315fBA4A6514100BdceA5C438E89dd9dd9F216F`
-- method
-  get
+#### url
 
-- request query
-  | Params | Description |
-  | ------- | ------------ |
-  | address | string,user address |
+`http://127.0.0.1:5000/analyze?address=0xB315fBA4A6514100BdceA5C438E89dd9dd9F216F`
 
-- response params
-  | Params | Description |
-  | ------- | ------------ |
-  | code | int |
-  | data | boolean |
-  | error | string |
+#### method
 
-- return json
+get
+
+#### request
+
+| Params  | Description         |
+| ------- | ------------------- |
+| address | string,user address |
+
+#### response
+
+| Params | Description |
+| ------ | ----------- |
+| code   | int         |
+| data   | boolean     |
+| error  | string      |
+
+#### return
 
 ```
 {
@@ -150,16 +155,14 @@ flask run
 
 ## Reference
 
-- [Trueblocks](https://trueblocks.io/)
-- [Pocket Network](https://www.pokt.network/)
-- [Ocean Protocol](https://oceanprotocol.com/)
-- [Python Flask](https://flask.palletsprojects.com/en/2.2.x/)
-- [Python Pandas](https://pandas.pydata.org/)
-- [Python Numpy](https://numpy.org/)
-- [Python Matplotlib](https://matplotlib.org/)
+- [1] Trueblocks <https://trueblocks.io/>
+- [2] Pocket Network <https://www.pokt.network/>
+- [3] Ocean Protocol <https://oceanprotocol.com/>
+- [4] Python Flask <https://flask.palletsprojects.com/en/2.2.x/>
+- [5] Python Pandas <https://pandas.pydata.org/>
+- [6] Python Numpy <https://numpy.org/>
+- [7] Python Matplotlib <https://matplotlib.org/>
 
 ## License
 
 SPDX short identifier: MIT
-
-> > > > > > > e7afae48a8590c6af0ffc71dcc0ec21381c98fc4
