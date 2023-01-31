@@ -9,3 +9,5 @@ This is OpenData-Community hackathon project build for identify sybil attackers 
 - **Interaction density** is lower than ordinary account
 
 So i wanna create an algorithm to estimate each score of above features.
+
+
